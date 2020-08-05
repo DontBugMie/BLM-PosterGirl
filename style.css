@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+}
+
+canvas {
+    background: transparent;
+    width:100vw;
+    height:100vh;
+    z-index: 1;
+    position: absolute;
+}
+
+.box {
+    background-size: cover;
+    z-index: -1;
+    width:100vw;
+    height: 100vh;
+    top:0;
+}
+
+.aside--pic__girl{
+    position: absolute;
+}
+
+
+
+/* https://codepen.io/progrape/pen/XXBwWe */
+
+
+/* https://www.youtube.com/watch?v=TUD9999TbS0 */
